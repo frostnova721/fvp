@@ -50,9 +50,9 @@ flutter:
   plugin:
     #implements: video_player #  endorsed. flutter 3.27+ can only select 1 implementation
     platforms:
-      android:
-        package: com.mediadevkit.fvp
-        pluginClass: FvpPlugin
+      # android:
+      #   package: com.mediadevkit.fvp
+      #   pluginClass: FvpPlugin
       ios:
         pluginClass: FvpPlugin
         sharedDarwinSource: true
